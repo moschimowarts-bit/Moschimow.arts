@@ -107,4 +107,5 @@ export const categories = [
   "Fan Art",
   "Food",
   "Portrait",
+  "Logo",
 ];
