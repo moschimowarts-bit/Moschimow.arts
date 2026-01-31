@@ -91,7 +91,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-2 flex-wrap">
-            © 2025 moschimow.arts by Danti
+            © 2025 moschimow.arts by Dhanti
             <span className="text-soft-pink">♥</span>
             Made with love and lots of coffee ☕
           </p>

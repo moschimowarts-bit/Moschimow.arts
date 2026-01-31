@@ -17,7 +17,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import dantiPortrait from "@/assets/danti-portrait.png";
+import dhantiPortrait from "@/assets/dhanti-portrait.png";
 
 const POSTS_QUERY = `
 *[_type == "contentPost"]{ _id, title,image,category }
@@ -107,8 +107,8 @@ const Index = () => {
             className="relative mb-8"
           >
             <motion.img
-              src={dantiPortrait}
-              alt="Danti - Illustrator"
+              src={dhantiPortrait}
+              alt="Dhanti - Illustrator"
               className="w-64 md:w-80 h-auto rounded-3xl shadow-lifted"
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
@@ -137,7 +137,7 @@ const Index = () => {
             transition={{ delay: 0.7 }}
             className="text-lg md:text-xl text-foreground max-w-2xl mb-10"
           >
-            Hi! I'm Danti, an illustrator who loves turning memories into cute and meaningful illustrations 🌼
+            Hi! I'm Dhanti, an illustrator who loves turning memories into cute and meaningful illustrations 🌼
           </motion.p>
 
           {/* CTA Buttons */}
@@ -298,8 +298,8 @@ const Index = () => {
               className="relative"
             >
               <img
-                src={dantiPortrait}
-                alt="Danti creating art"
+                src={dhantiPortrait}
+                alt="Dhanti creating art"
                 className="w-full max-w-md mx-auto rounded-3xl shadow-lifted"
               />
               <div className="absolute -bottom-4 -right-4 bg-soft-pink/30 rounded-2xl p-4">

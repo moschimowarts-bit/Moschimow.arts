@@ -11,7 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { FloatingDoodles, Star, Heart } from "@/components/ui/FloatingDoodles";
-import dantiPortrait from "@/assets/danti-portrait.png";
+import dhantiPortrait from "@/assets/dhanti-portrait.png";
 
 const Contact = () => {
   const contactOptions = [
@@ -73,8 +73,8 @@ const Contact = () => {
           </motion.p>
           
           <motion.img
-            src={dantiPortrait}
-            alt="Danti waving"
+            src={dhantiPortrait}
+            alt="Dhanti waving"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3 }}

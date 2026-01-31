@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { FloatingDoodles, Star, Heart, Flower } from "@/components/ui/FloatingDoodles";
-import dantiPortrait from "@/assets/danti-portrait.png";
+import dhantiPortrait from "@/assets/dhanti-portrait.png";
 
 const About = () => {
   return (
@@ -20,8 +20,8 @@ const About = () => {
               className="relative"
             >
               <img
-                src={dantiPortrait}
-                alt="Danti - Illustrator"
+                src={dhantiPortrait}
+                alt="Dhanti - Illustrator"
                 className="w-full max-w-lg mx-auto rounded-3xl shadow-lifted"
               />
               <motion.div 
@@ -53,7 +53,7 @@ const About = () => {
               animate={{ opacity: 1, x: 0 }}
             >
               <h1 className="text-5xl md:text-6xl font-heading text-brown mb-4">
-                Hi, I'm Danti! 🌼
+                Hi, I'm Dhanti! 🌼
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
                 Illustrator • Dreamer • Memory Keeper
@@ -61,7 +61,7 @@ const About = () => {
               
               <div className="space-y-4 text-foreground">
                 <p>
-                  Welcome to my little corner of the internet! I'm Danti, the artist behind moschimow.arts.
+                  Welcome to my little corner of the internet! I'm Dhanti, the artist behind moschimow.arts.
                 </p>
                 <p>
                   I've always believed that memories are too precious to be forgotten. That's why I started creating illustrations—to capture special moments, emotions, and stories in a fun and meaningful way.
