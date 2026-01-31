@@ -344,7 +344,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-xl">🌍</span>
-                  <span className="text-sm font-medium">Based in: Yogyakarta, Indonesia</span>
+                  <span className="text-sm font-medium">Based in: Indonesia</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-xl">💌</span>
